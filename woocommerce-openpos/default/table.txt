@@ -1,0 +1,49 @@
+<% var total_qty = 0; %>
+<% var grand_total = 0; %>
+<%
+function formatToCurrency(amount,decimal_num = 2,decimal_sig= '.',thousand_sig= ','){
+    amount = amount.toFixed(decimal_num);
+    let format_amount = (1 * amount).toLocaleString('en-US',{minimumFractionDigits: decimal_num});
+    let result = format_amount.replace('.','d');
+    result = result.replace(',','e');
+    
+    return result.replace('d',decimal_sig).replace('e',thousand_sig);
+}
+%>
+<table class="table table-bordered border-primary align-middle table-dishes">
+  <thead>
+        <tr><th  colspan="3" class="text-center"><h2><%= table.name %></h2></th></tr>
+        <tr>
+            <th><%= lang.label_item %></th>
+            <th><%= lang.label_qty %></th>
+            <th><%= lang.label_total %></th>
+        </tr>
+  </thead>
+  <tbody>
+  <% if (dishes.length > 0) { %>
+            <% dishes.forEach(function(item){  %>
+                <% total_qty += item.qty; %>
+                <% grand_total += item.total; %>
+                <tr>
+                    <td>
+                        <p><%= item.name %></p>
+                    </td>
+                    <td><p><%- item.qty %></p></td>
+                    <td><p><%- formatToCurrency(item.total,currency.currency_decimal,currency.currency_decimal_separator,currency.currency_thousand_separator) %></p></td>
+                   
+                </tr>
+            <% }); %>
+            <tr  class="table-total">
+                <th><%= lang.label_total %></th>
+                <td><p><%- total_qty %></p></td>
+                <td><p><%- formatToCurrency(grand_total,currency.currency_decimal,currency.currency_decimal_separator,currency.currency_thousand_separator) %></p></td>
+            </tr
+<% } %>
+  <% if (dishes.length == 0) { %>
+     <tr><td  colspan="3"> <%= lang.msg_table_empty %></td></tr>
+  <% } %>
+  </tbody>
+</table>
+<% if(total_qty > 0 ){ %>
+<p><em><%= lang.msg_table_confirm %></em></p>
+<% } %>

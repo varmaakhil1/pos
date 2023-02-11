@@ -1,0 +1,436 @@
+
+
+/* devanagari */
+@font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Poppins Italic'), local('Poppins-Italic'), url(https://fonts.gstatic.com/s/poppins/v6/pxiGyp8kv8JHgFVrJJLucXtAOvWDSHFF.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Poppins Italic'), local('Poppins-Italic'), url(https://fonts.gstatic.com/s/poppins/v6/pxiGyp8kv8JHgFVrJJLufntAOvWDSHFF.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Poppins Italic'), local('Poppins-Italic'), url(https://fonts.gstatic.com/s/poppins/v6/pxiGyp8kv8JHgFVrJJLucHtAOvWDSA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v6/pxiEyp8kv8JHgFVrJJbecnFHGPezSQ.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v6/pxiEyp8kv8JHgFVrJJnecnFHGPezSQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v6/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLGT9Z11lFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLGT9Z1JlFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v6/pxiByp8kv8JHgFVrLGT9Z1xlFd2JQEk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local('Poppins SemiBold'), local('Poppins-SemiBold'), url(assets/fonts/pxiByp8kv8JHgFVrLEj6Z11lFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local('Poppins SemiBold'), local('Poppins-SemiBold'), url(assets/fonts/pxiByp8kv8JHgFVrLEj6Z1JlFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local('Poppins SemiBold'), local('Poppins-SemiBold'), url(assets/fonts/pxiByp8kv8JHgFVrLEj6Z1xlFd2JQEk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Poppins Bold'), local('Poppins-Bold'), url(assets/fonts/pxiByp8kv8JHgFVrLCz7Z11lFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Poppins Bold'), local('Poppins-Bold'), url(assets/fonts/pxiByp8kv8JHgFVrLCz7Z1JlFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Poppins Bold'), local('Poppins-Bold'), url(assets/fonts/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+/*end icon*/
+
+span.option-item-label{
+    float:left;
+    font-size: 10px;
+    width:100%;
+}
+.co-checkout .mat-tab-label-active{
+    background: #00a523;
+    color:#fff;
+}
+.cart-items-container-details .mat-list .mat-list-item .mat-list-item-content{
+    padding: 0 10px 0 0;
+}
+.mat-paginator-page-size{
+    display: none!important;
+}
+
+.desk-items-container .mat-list .mat-list-item .mat-list-item-content{
+    padding: 0 10px 0 0;
+}
+
+/* 
+#scan-barcode-input{
+    opacity: 0.5;
+}
+body.focused #scan-barcode-input{
+    opacity: 1;
+} */
+/* start dark mode */
+.layout-mode-dark {
+    background: #1b1f2c;
+    color: #fff;
+}
+.icon-op-desk,
+.app-icon-op-desk mat-icon{
+    font-family: 'IcoFont' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-feature-settings: "liga";
+    -webkit-font-smoothing: antialiased;
+    background: none;
+    color:#000;
+}
+span.icon-op-desk::before,
+.app-icon-op-desk mat-icon::before{
+    content: "\eb60";
+}
+.app-icon-op-desk mat-icon::before{
+    float: left;
+    text-indent: 0;
+}
+.icon-op-desk{
+    font-size: 30px;
+    line-height: 38px;
+    text-indent: 0;
+}
+.app-icon-op-desk mat-icon{
+    font-size: 30px;
+    line-height: 38px;
+    height: 30px;
+}
+
+.layout-mode-dark .app-icon-op-desk mat-icon{
+    color:#fff;
+}
+
+.dialog-layout-mode-dark .icon-op-desk,
+.layout-mode-dark .icon-op-desk{
+    color:#fff;
+   
+}
+
+.layout-mode-dark .main-content-container .top-nav-container{
+    background-color: #010e14d1;
+}
+.layout-mode-dark  .content-right .top-nav-container{
+    background-color: #000;
+    color: #fff;
+}
+.layout-mode-dark  .content-right .pickup-items-container,
+.layout-mode-dark  .desk-items-container,
+.layout-mode-dark  .content-right .desk-items-container,
+.layout-mode-dark  .content-right .cart-items-container{
+    background: #494949;
+    color: #fff;
+}
+.layout-mode-dark  .content-right .cart-add-btn-container{
+    background-color: #727272;
+    color: #fff;
+}
+.layout-mode-dark .content-right .cart-add-btn-container .cart-add-btn-container-title label{
+    color: #fff;
+}
+.layout-mode-dark .content-right .cart-add-btn-container .add-cart-menu button{
+    color: #fff;
+}
+.layout-mode-dark  .content-right .cart-total-container mat-card,
+.layout-mode-dark  .content-right .cart-total-container{
+    background: #494949;
+    color: #fff;
+}
+.layout-mode-dark  .content-right .cart-total-container .total-title,
+.layout-mode-dark  .content-right .cart-total-container .total-value,
+.layout-mode-dark  .content-right .cart-total-container .total-discount-row,
+.layout-mode-dark  .content-right .cart-total-container .total-tax-row,
+.layout-mode-dark  .content-right .cart-total-container .sub-total-row{
+    color: #fff;
+}
+.layout-mode-dark  .content-right .cart-total-container .mat-divider{
+    border-top-color: #fff;
+}
+.layout-mode-dark  .content-right .cart-item{
+    color:#fff;
+}
+.layout-mode-dark  .content-right .cart-item-row:nth-child(odd) .mat-list-item-content  .desk-item-container,
+.layout-mode-dark  .content-right .cart-item-container.mat-list-item:nth-child(odd){
+    background-color: #656464;
+}
+.layout-mode-dark  app-board{
+    background-color: #999;
+}
+.layout-mode-dark  app-board .app-list-container{
+    background-color: #888;
+    color: #fff;
+}
+.layout-mode-dark  app-board .app-list-container .app-item-details{
+    color: #fff;
+    border-color: #fff;
+    background: #777;
+}
+.layout-mode-dark app-tiles,
+.layout-mode-dark app-order,
+.layout-mode-dark app-customers,
+.layout-mode-dark app-logoff,
+.layout-mode-dark app-new-customer,
+.layout-mode-dark app-login,
+.layout-mode-dark app-takeaways,
+.layout-mode-dark app-user,
+.layout-mode-dark app-setting,
+.layout-mode-dark app-report,
+.layout-mode-dark app-holders,
+.layout-mode-dark app-orders,
+.layout-mode-dark app-transactions,
+.layout-mode-dark app-products,
+.layout-mode-dark app-categories,
+.layout-mode-dark app-category,
+.layout-mode-dark app-desks{
+    background-color: #888;
+    color: #fff;
+}
+.layout-mode-dark app-setting label{
+    color: #fff;
+}
+.layout-mode-dark .main-content-container app-takeaway .pagination,
+.layout-mode-dark .main-content-container app-desk .pagination{
+    background: #666;
+}
+.layout-mode-dark app-tiles .titles-bottom,
+.layout-mode-dark app-order .view-order-bottom-control-container,
+.layout-mode-dark .main-content-container .pagination .mat-paginator,
+.layout-mode-dark .main-content-container .pagination{
+   
+    background: #494949;
+}
+.layout-mode-dark .main-content-container .pagination .mat-select-arrow,
+.layout-mode-dark .main-content-container .pagination .mat-select-value,
+.layout-mode-dark .main-content-container .pagination .desk-takeaway-container button,
+.layout-mode-dark .main-content-container .pagination .mat-paginator .mat-paginator-range-label,
+.layout-mode-dark .main-content-container .pagination .mat-paginator button{
+    color: #fff;
+}
+.layout-mode-dark .transaction-list-container  .transaction-details-titles{
+    background: #494949;
+}
+.layout-mode-dark .content-right .list-dish-bottom-action{
+    background-color: #666;
+}
+.layout-mode-dark .transaction-list-container .transaction-item:nth-child(odd){
+    background: #666;
+}
+.layout-mode-dark .takeaway-list-page .desk-container{
+    color: #000;
+}
+.layout-mode-dark .takeaway-view .desk-menu-container{
+    background: #377005;
+}
+.layout-mode-dark app-login .z-report-print-screen-container,
+.layout-mode-dark app-login .login-form{
+    background: #494949;
+    color: #fff;
+}
+.layout-mode-dark app-login .cashdrawer-item:nth-child(even){
+    background-color: #888;
+    color: #fff;
+}
+.layout-mode-dark app-login .cashdrawer-item:nth-child(odd){
+    background-color: #9999;
+    color: #fff;
+}
+.layout-mode-dark app-login .mat-form-field-appearance-legacy .mat-form-field-label{
+    color: #fff;
+
+}
+.layout-mode-dark .desk-page .desk-items-container .cart-item-row:nth-child(odd) .desk-item-container{
+    background: #656464;
+}
+.layout-mode-dark .desk-items-container  .cart-item-row.pending{
+    color: lime;
+}
+.layout-mode-dark app-cart .bottom-cart-container{
+    background-color: #666;
+}
+.layout-mode-dark .search-online-order-form input{
+    color: #000;
+}
+.layout-mode-dark app-new-customer .top-nav,
+.layout-mode-dark app-new-customer .customer-from-action,
+.layout-mode-dark app-setting .grid-top-menu,
+.layout-mode-dark app-products .top-menu-nav,
+.layout-mode-dark app-categories .top-menu-nav,
+.layout-mode-dark .view-order-container .grid-top-menu,
+.layout-mode-dark .view-order-container .view-order-bottom-control-container{
+    background: #494949;
+}
+.layout-mode-dark  app-customers .grid-top-menu{
+    background: #494949;
+}
+.layout-mode-dark  app-customers .grid-top-menu input{
+    background: #fff;
+    color: #000;
+}
+.layout-mode-dark  app-customers .result-item{
+    background-color: #878787;
+}
+.layout-mode-dark  app-customers .result-item:nth-child(even){
+    background-color: #666;
+}
+
+.layout-mode-dark app-new-customer .customer-frm-container{
+    color:#000;
+}
+.layout-mode-dark app-tiles .title-container{
+    background: #494949;
+}
+.layout-mode-dark app-tiles  .title-container.add-tile{
+    background: #6c6c6c;
+    border: dotted #fff 1px;
+}
+.layout-mode-dark app-products .products-top-menu-center .mat-select-arrow,
+.layout-mode-dark app-products .products-top-menu-center .mat-select-value {
+    color: #fff;
+}
+
+/* Dialog dark mode */
+.dialog-layout-mode-dark app-item{
+    color: #fff;
+}
+.dialog-layout-mode-dark .mat-dialog-container{
+    background-color: #777;
+    color: #fff;
+}
+.dialog-layout-mode-dark .mat-form-field input,
+.dialog-layout-mode-dark .mat-form-field textarea,
+.dialog-layout-mode-dark .mat-list .mat-list-item,
+.dialog-layout-mode-dark .mat-select-value,
+.dialog-layout-mode-dark .mat-form-field.mat-focused .mat-form-field-label,
+.dialog-layout-mode-dark .mat-form-field-appearance-legacy .mat-form-field-label{
+    color: #fff;
+}
+.dialog-layout-mode-dark .options-content .mat-card,
+.dialog-layout-mode-dark .calculator-container .mat-card{
+    background: transparent;
+}
+.dialog-layout-mode-dark .mat-drawer{
+    background-color: #777;
+}
+.dialog-layout-mode-dark app-checkout-single .payment-header-content{
+    background-color: #ddc7c7;
+}
+.dialog-layout-mode-dark app-options .option-title{
+    color: #fff;
+    font-weight: bold;
+
+}
+.dialog-layout-mode-dark  add-tile-dialog .grid-tiles .label,
+.dialog-layout-mode-dark  add-tile-dialog .grid-tiles .icon{
+    color:#fff;
+}
